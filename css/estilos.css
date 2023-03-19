@@ -1,20 +1,78 @@
 body
 {
-    background-color: darkblue;
-    color: greenyellow;
+    color: rgba(21, 148, 233, 0.836);
     text-align: center;
     font-family: sans-serif;
     font-size: 16px;
     margin: 3px;
     padding: 3px;
 }
+
+#post {
+    padding: 2px 2px;
+}
+
+#cabecera {
+    display: flex;
+    background: rgba(98, 137, 243, 0.37);
+    box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.5) ;
+    color: rgba(68, 0, 255, 0.705);
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0;
+    padding: 0.5em;
+    height: 3%;
+}
+
+#cabecera #tagline {
+    padding: 0 0 1em;
+    font-weight: normal;
+    font-size: 0.9em;
+    text-align: left;
+}
+
 #conteiner {
     display: inline-block;
-    width: 70%;
+    width: 40%;
     text-align: center;
-    border: 10px solid blueviolet;
-    margin: 5px;
+    border: 10px solid rgba(137, 43, 226, 0.267);
+    margin: 5px 1px;
 }
 #conteiner h1 {
     font-size: 20px;
+}
+
+@media (max-width: 818px) {
+    #conteiner {width: 45%;
+    }
+}
+
+@media (max-width: 729px) {
+    #conteiner {width: 50%;
+    }
+}
+
+@media (max-width: 657px) {
+    #conteiner {width: 60%;
+    }
+}
+
+@media (max-width: 549px) {
+    #conteiner {width: 70%;
+    }
+}
+
+@media (max-width: 473px) {
+    #conteiner {width: 80%;
+    }
+}
+
+@media (max-width: 415px) {
+    #conteiner {width: 90%;
+    }
+}
+
+@media (max-width: 370px) {
+    #conteiner {width: 95%;
+    }
 }
