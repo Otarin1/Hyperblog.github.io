@@ -20,20 +20,25 @@ body
     color: rgba(68, 0, 255, 0.705);
     font-weight: bold;
     font-size: 20px;
-    margin: 0;
-    padding: 0.5em;
-    height: 3%;
+    height: 6%;
+    width: 99%;
+    padding: 2px 2px;
 }
 
 #cabecera #logo {
-    width: 20px;
+    width: 30px;
     vertical-align: middle;
+    margin: 1px 5px;
+}
+#cabecera #subtitulo {
+    font-size: 22px;
+    margin: 5px 5px 5px 5px
 }
 
 #cabecera #tagline {
-    padding: 0 0 1em;
+    margin: 6px 6px 6px 6px;
     font-weight: normal;
-    font-size: 0.9em;
+    font-size: 1em;
     text-align: left;
 }
 
@@ -44,9 +49,7 @@ body
     border: 10px solid rgba(137, 43, 226, 0.267);
     margin: 5px 1px;
 }
-#conteiner h1 {
-    font-size: 20px;
-}
+
 
 #post {
     background: #fff;
@@ -58,39 +61,4 @@ body
     color: white;
     text-align: center;
     padding: 0.5em;
-}
-
-@media (max-width: 818px) {
-    #conteiner {width: 45%;
-    }
-}
-
-@media (max-width: 729px) {
-    #conteiner {width: 50%;
-    }
-}
-
-@media (max-width: 657px) {
-    #conteiner {width: 60%;
-    }
-}
-
-@media (max-width: 549px) {
-    #conteiner {width: 70%;
-    }
-}
-
-@media (max-width: 473px) {
-    #conteiner {width: 80%;
-    }
-}
-
-@media (max-width: 415px) {
-    #conteiner {width: 90%;
-    }
-}
-
-@media (max-width: 370px) {
-    #conteiner {width: 95%;
-    }
 }
